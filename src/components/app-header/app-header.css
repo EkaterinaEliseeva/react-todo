@@ -1,0 +1,26 @@
+.app-header {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.app-header h1 {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 500px) {
+    .app-header {
+        flex-wrap: wrap;
+    }
+
+    .app-header h1 {
+        width: 100%;
+    }
+
+    .app-header span {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

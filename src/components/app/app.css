@@ -1,0 +1,16 @@
+.app {
+    width: 30%;
+    min-width: 420px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+    .app {
+        min-width: 300px;
+        width: auto;
+        padding: 0 10px;
+    }
+}
