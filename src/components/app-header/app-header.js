@@ -1,13 +1,14 @@
-import React from "react";
+import React, {Component} from "react";
 import './app-header.css';
 
-const AppHeader = () => {
-    return <div className='app-header'>
-        <h1>
+export default class AppHeader extends Component {
+    render() {
+        const {todo, done} = this.props;
+        return (<div className='app-header'>
+            <h1>
             My Todo List
         </h1>
-        <span>{Math.floor(Math.random()*10)} more to do, {Math.floor(Math.random()*10)} done</span>
-    </div>
-}
-
-export default AppHeader;
+        <span>{todo} more to do, {done} done</span>
+        </div>);
+    }
+};
