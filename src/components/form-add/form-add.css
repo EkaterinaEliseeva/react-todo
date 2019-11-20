@@ -1,0 +1,22 @@
+.form-add {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.form-add button,
+.form-add input {
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+    border-radius: 0.25rem;
+    outline: none;
+}
+
+.form-add input {
+    margin-bottom: 10px;
+}
+
+.form-add button:hover,
+.form-add button:active {
+    opacity: 0.7;
+}
